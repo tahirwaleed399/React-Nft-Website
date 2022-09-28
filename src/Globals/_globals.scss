@@ -1,0 +1,75 @@
+/*// -----------------Variable-----------------------
+*/
+$purple: rgb(183, 92, 255);
+$white: #ffffff;
+$purpleGradient: linear-gradient(
+  176deg,
+  rgba(183, 92, 255, 1) 0%,
+  rgba(103, 26, 228, 0.7567401960784313) 97%,
+  rgba(255, 255, 255, 1) 100%
+);
+
+$headingFontSize : 40px ;
+$smallheadingFontSize : 25px ;
+$textFont : 12px ;
+$navHeight : 81px ;
+$sectionDifference : 90px ;
+
+// --------------Colors--------------
+.lightWhiteColor {
+    color: rgba(255, 255, 255, 0.5);
+}
+.textWhite{
+    color: $white;
+}
+
+//  -------------------Bgs----------
+.purpleGradient {
+  background: $purple;
+  background: $purpleGradient;
+}
+
+.glassbg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+// --------------------BTNS--------------------
+.btn-primary {
+    background: $purple;
+  background: $purpleGradient;
+  color: $white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.btn-glass-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.btn-glass-bg.active{
+  background: $purple;
+  background: $purpleGradient;
+}
+
+    // --------------------TYPOS--------------------
+
+    .textPara{
+font-size: $textFont;
+ color: rgba(255, 255, 255, 0.5); 
+
+
+    }
+
+    .smallHeading
+    {
+      font-size: $smallheadingFontSize;
+
+      color: $white;
+      font-weight: 800;
+      margin: 10px 0;
+
+    }

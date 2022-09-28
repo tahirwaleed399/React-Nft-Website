@@ -1,0 +1,29 @@
+.hero{
+
+    
+    @media only screen and (max-width:1000px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    margin: $sectionDifference 0;
+    .left-cta{
+
+        h1{
+        font-size: $headingFontSize;
+        font-weight: 800;
+        
+        }
+        p{
+            font-size: $textFont;
+        }
+    }
+.right-cta{
+    
+    @media only screen and (max-width:1000px) {
+        display: none;
+    }
+}
+    
+}

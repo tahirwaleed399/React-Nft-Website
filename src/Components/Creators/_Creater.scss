@@ -1,0 +1,29 @@
+.creators{
+    .creator{
+
+        height: 519px;
+        width : 100%;
+        max-width: 390px;
+        text-align: center;
+        span{
+            font-weight: 800;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .logo{
+            height: 80px;
+            width: 80px;
+            transform: translateY(-40px);
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .btn-primary.active{
+            background: rgba(255,255,255,0.5) !important;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.faqs {
+    margin :$sectionDifference 0;
+    .faq{
+        font-size: 17px;
+        flex:0 0 50%;
+        border-bottom: 2px solid white;
+
+        @media only screen and (max-width:1000px) {
+            flex:0 0 100%
+        }
+        .answer {
+            font-size: 12px;
+            margin: 10px 0;
+        }
+    }
+}

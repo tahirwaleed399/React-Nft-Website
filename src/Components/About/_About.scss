@@ -1,0 +1,14 @@
+section.about {
+
+    main{
+        img{
+            height: 500px;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    
+    @media only screen and (max-width:1000px) {
+      text-align: center;
+    }
+}
